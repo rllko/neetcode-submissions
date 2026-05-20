@@ -10,9 +10,7 @@ func threeSum(nums []int) [][]int {
             continue;
         }
 
-        r := len(nums)-1
-        l := i+1
-
+        r,l := len(nums)-1,i+1
 
         for r > l {
             val := nums[r] + nums[l] + nums[i]
