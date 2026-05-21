@@ -1,8 +1,8 @@
 func trap(height []int) int {
-    res := 0
+	res := 0
 
 	for i := range height {
-		left,right := 0,len(height)-1
+	left,right := 0,len(height)-1
         left_max:= 0
         right_max:= 0
         
